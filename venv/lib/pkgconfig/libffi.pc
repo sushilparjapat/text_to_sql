@@ -1,0 +1,11 @@
+prefix=/home/sushil_2211mc24/Gemini_Projects/gemini_llm_app/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/home/sushil_2211mc24/Gemini_Projects/gemini_llm_app/venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.3
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

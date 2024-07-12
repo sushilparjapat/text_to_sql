@@ -1,0 +1,13 @@
+prefix=/home/sushil_2211mc24/Gemini_Projects/gemini_llm_app/venv
+exec_prefix=/home/sushil_2211mc24/Gemini_Projects/gemini_llm_app/venv
+libdir=/home/sushil_2211mc24/Gemini_Projects/gemini_llm_app/venv/lib
+sharedlibdir=/home/sushil_2211mc24/Gemini_Projects/gemini_llm_app/venv/lib
+includedir=/home/sushil_2211mc24/Gemini_Projects/gemini_llm_app/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

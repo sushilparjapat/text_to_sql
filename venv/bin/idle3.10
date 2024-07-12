@@ -1,0 +1,5 @@
+#!/home/sushil_2211mc24/Gemini_Projects/gemini_llm_app/venv/bin/python3.10
+
+from idlelib.pyshell import main
+if __name__ == '__main__':
+    main()

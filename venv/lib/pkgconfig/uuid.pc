@@ -1,0 +1,11 @@
+prefix=/home/sushil_2211mc24/Gemini_Projects/gemini_llm_app/venv
+exec_prefix=/home/sushil_2211mc24/Gemini_Projects/gemini_llm_app/venv
+libdir=/home/sushil_2211mc24/Gemini_Projects/gemini_llm_app/venv/lib
+includedir=/home/sushil_2211mc24/Gemini_Projects/gemini_llm_app/venv/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
